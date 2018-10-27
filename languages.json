@@ -1,0 +1,38 @@
+{
+    "dictionary_name": "languages",
+    "entries": [{
+        "key": [
+            "c++",
+            "java",
+            "javascript",
+            "python",
+            "c#",
+            "css",
+            "html",
+            "php",
+            "nodejs",
+            "swift",
+            "objective-c",
+            "assembly",
+            "language",
+            "computer",
+            "computers"
+        ],
+        "answer": [
+            "So I kinda hate that language.. to much memory mangagment",
+            "Never really got into that language but I heard its for noobs",
+            "I don't know enough about that computer language... ironic huh.",
+            "Ah cool.. I wish I was a computer language",
+            "Sounds cool, but you should checkout kotlin",
+            "Hmm interesting.. Where can I download that language?",
+            "Does the language cost money?"
+        ],
+        "question": [
+            "What's your favorite computer language?",
+            "Do you think people use computer languages for different purposes?",
+            "What do you think is the BEST computer langauge?",
+            "Why do people like bad computer langaugess",
+            "Do you program with that computer language?"
+        ]
+    }]
+}
