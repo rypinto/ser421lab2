@@ -1,0 +1,82 @@
+'use strict';
+
+let defaultJSON;
+var userName;
+var response;
+
+//File IO
+var fs = require('fs');
+
+//Setting up the readline functionality to optain inputs from the user
+const readline = require('readline')
+var rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+// Async function to read Json dictionary.
+function readJSON(start){
+    let tempDef = fs.readFileSync('default.json');
+    defaultJSON = JSON.parse(tempDef);
+    console.log("Hello my name is Eliza!");
+    start(defaultJSON);
+}
+
+// Async function to get user name.
+function getUser(user){
+    rl.question('What is your name? ', (user) => {
+        userName = user;
+        console.log(`Hello  ${user}`);
+        rl.pause();
+    });
+    user(userName);
+
+
+}
+
+
+function startQ() {
+
+    rl.resume();
+    console.log(defaultJSON.entries[5].question[randomInt(defaultJSON.entries[5].question.length)]);
+    /*
+    rl.question(defaultJSON.entries[5].question[randomInt(defaultJSON.entries[5].question.length)], (answer) => {
+
+
+
+        console.log(`Hello  ${answer}`);
+        rl.pause();
+    });
+    */
+
+}
+
+
+
+
+
+readJSON(function(a){
+    //console.log(a)
+});
+
+
+getUser(function(b){
+    //console.log(b);
+});
+
+
+startQ();
+/*
+startQ(function(c){
+    //console.log(c);
+});
+*/
+
+
+// This function returns a random Int to use when selecting a random element of an array
+function randomInt(max){
+
+    var ran = Math.floor(Math.random() * (max));
+
+    return ran;
+}
