@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bccd3e4-e076-4c72-8922-826852661ae8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/activity1.js" beforeDir="false" afterPath="$PROJECT_DIR$/activity1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/activity2.js" beforeDir="false" afterPath="$PROJECT_DIR$/activity2.js" afterDir="false" />
     </list>
@@ -34,7 +33,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="27" />
-          <entry key="JavaScript" value="2682" />
+          <entry key="JavaScript" value="3053" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -45,7 +44,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="2682" />
+          <entry key="js" value="3053" />
           <entry key="json" value="27" />
         </counts>
       </usages-collector>
@@ -61,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/activity1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+            <state relative-caret-position="475">
+              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
             </state>
           </provider>
         </entry>
@@ -70,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/activity2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="50">
+              <caret line="2" selection-start-line="2" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -112,9 +111,9 @@
       <list>
         <option value="$PROJECT_DIR$/activity3.js" />
         <option value="$PROJECT_DIR$/default.json" />
+        <option value="$PROJECT_DIR$/node_modules/test.js" />
         <option value="$PROJECT_DIR$/activity2.js" />
         <option value="$PROJECT_DIR$/activity1.js" />
-        <option value="$PROJECT_DIR$/node_modules/test.js" />
       </list>
     </option>
   </component>
@@ -173,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.activity1.js">
+  <component name="RunManager" selected="Node.js.activity2.js">
     <configuration name="activity1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="activity1.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -186,8 +185,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.activity1.js" />
         <item itemvalue="Node.js.activity2.js" />
+        <item itemvalue="Node.js.activity1.js" />
       </list>
     </recent_temporary>
   </component>
@@ -201,12 +200,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540651750734</updated>
-      <workItem from="1540651753023" duration="23325000" />
+      <workItem from="1540651753023" duration="26450000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23325000" />
+    <option name="totallyTimeSpent" value="26450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="344" width="1936" height="1056" extended-state="6" />
@@ -221,7 +220,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26898047" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27874187" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -263,16 +262,6 @@
     <entry file="file://$PROJECT_DIR$/../../Week 1/Lab1/lab1act2partA.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/activity3.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/activity2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/test.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -283,10 +272,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/activity3.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/activity1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+        <state relative-caret-position="475">
+          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
         </state>
       </provider>
     </entry>

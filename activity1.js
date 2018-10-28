@@ -36,9 +36,10 @@ function startQuestion() {
 
 
 
-        console.log(`Hello  ${answer}`);
+        console.log(`First Question Response  ${answer}`);
         rl.pause();
         if(answer != 'quit')
+
             recurringQuestion();
         else
             quit();
@@ -85,6 +86,13 @@ function randomInt(max){
 
     return ran;
 }
+
+//This function breaks the answer submitted by the user into individuals words and places it in an array
+function parseInput(input){
+    var splitinput = input.split(' ');
+    return splitinput;
+}
+
 
 // Setting up the file stream to import the default JSON file
 var fs = require('fs');
